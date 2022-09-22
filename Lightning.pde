@@ -24,9 +24,10 @@ stroke((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*2
   
 noStroke();
 fill(92, 92, 92);
-ellipse(70,-20,300);
-ellipse(180+70,-20,300);
-ellipse(360+70,-20,300);
+ellipse(70,-20,300,300);
+ellipse(180+70,-20,300,300);
+ellipse(360+70,-20,300,300);
+
   
 }
 void mousePressed()
@@ -38,9 +39,9 @@ endX = 250;
 endY = 0;
 spread = 0;
 fill(189, 189, 189);
-ellipse(70,-20,300);
-ellipse(180+70,-20,300);
-ellipse(360+70,-20,300);
+ellipse(70,-20,300,300);
+ellipse(180+70,-20,300,300);
+ellipse(360+70,-20,300,300);
 }
 
 
