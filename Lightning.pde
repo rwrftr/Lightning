@@ -15,7 +15,6 @@ stroke((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*2
   
   while(endY<=500){
     endX = (startX+(int)(Math.random()*(19)) - (9));
-    System.out.println(endX);
     endY = (startY+(int)(Math.random()*(9)));
     line(startX, startY, endX, endY);
     startX = endX;
@@ -25,9 +24,9 @@ stroke((int)(Math.random()*255), (int)(Math.random()*255), (int)(Math.random()*2
   
 noStroke();
 fill(92, 92, 92);
-circle(70,-20,300);
-circle(180+70,-20,300);
-circle(360+70,-20,300);
+ellipse(70,-20,300);
+ellipse(180+70,-20,300);
+ellipse(360+70,-20,300);
   
 }
 void mousePressed()
@@ -39,9 +38,9 @@ endX = 250;
 endY = 0;
 spread = 0;
 fill(189, 189, 189);
-circle(70,-20,300);
-circle(180+70,-20,300);
-circle(360+70,-20,300);
+ellipse(70,-20,300);
+ellipse(180+70,-20,300);
+ellipse(360+70,-20,300);
 }
 
-//i like lbbs
+
